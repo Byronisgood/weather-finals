@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #272E38, #5b548a);
+  color: #fff;
+  margin: 2180px auto 0; /* Increase the margin-top value */
+  border-radius: 20px;
+  padding: 40px;
+  padding-top: 40px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 12px 20px;
+  height: 48px;
+  border-radius: 24px;
+  flex: 1;
+  font-size: 16px;
+}
+
+.search button {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search button img {
+  width: 20px;
+}
+
+.weather-icon {
+  width: 120px;
+  margin: 20px 0;
+}
+
+.weather h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.weather h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.humidity {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-section {
+  background: linear-gradient(135deg, #272E38, #5b548a);
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 380px; /* Increase the margin-top value */
+}
+
+
+.about-section h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Contact Us Section */
+.contact-section {
+  background: linear-gradient(135deg, #272E38, #5b548a);
+  color: #fff;
+  padding: 60px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 550px;
+  margin-bottom: 130px;
+}
+
+.contact-section h3 {
+  font-size: 36px;
+
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  line-height: 2.6;
+}
+
+.contact-section a {
+  color: #fff;
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  /* Add additional styles for larger screens if needed */
+  .search {
+    flex-direction: row;
+  }
+
+  .search input {
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  .details {
+    flex-direction: row;
+  }
+
+  .col {
+    margin-bottom: 0;
+    margin-right: 10px;
+
+
+    
+  }
+}
